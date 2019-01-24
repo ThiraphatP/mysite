@@ -1,0 +1,64 @@
+{% extends 'main_page.html' %}
+
+{% block content %}
+
+
+
+<form method="POST" class="add-form">{% csrf_token %}
+    {{ form }}
+    <div class="button-wrapper">
+
+
+<a href="{% url 'add' %}" class="back-button">
+<div >Push</div>
+</a>
+
+<div class="button"></div>
+
+
+                {% for item in restuarants|slice:":1" %}
+
+<a href="{% url 'delete' pk=item.pk %}" class="back-button">
+    {% if some_flag %}
+    <div id="some_flag" title="Some Flag">
+
+    </div>
+{% endif %}
+<div onclick="return confirm('{{item.name}}')">Pop</div>
+</a>
+
+
+{% endfor %}
+
+
+
+
+
+
+
+
+    </div>
+</form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ {% for item in restuarants %}
+
+<div class="back-button-text-in">{{item.name}}</div>
+
+  {% endfor %}
+
+
+
+{% endblock %}

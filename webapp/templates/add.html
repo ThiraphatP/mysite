@@ -1,0 +1,18 @@
+{% extends 'main_page.html' %}
+
+{% block content %}
+<form method="POST" class="add-form">{% csrf_token %}
+    {{ form }}
+
+        <button type="submit" class="back-button">
+     {% if isShowingEdit %}
+            <div>แก้ไข</div>
+            {% else %}
+            <div>เพิ่มข้อมูล</div>
+            {% endif %}
+        </button>
+
+
+</form>
+
+{% endblock %}
