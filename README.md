@@ -54,4 +54,4 @@ https://codeburst.io/%E0%B9%80%E0%B8%A3%E0%B8%B4%E0%B9%88%E0%B8%A1%E0%B8%9E%E0%B
 https://tutorial.djangogirls.org/en/django_admin/
 
 สอบถามเพิ่มเติม
-EMAIL: Thiraphat_p-st@rmutsb.ac.th
+Email: Thiraphat_p-st@rmutsb.ac.th
