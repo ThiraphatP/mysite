@@ -22,15 +22,15 @@ https://docs.python-guide.org/starting/install3/osx/
 พิมพ์คำสั่ง $ pip install -U Django 
 แล้ว pip3 จะ download django เข้ามาติดตั้งในเครื่องให้โดยอัตโนมัติ
 
-3. เปิด command prompt
-พิมพ์คำสั่ง
+3. ไปที่ root directory ของไฟล์
+ไปที่ Terminal พิมพ์คำสั่ง
 python manage.py migrat
 และ
 
 4. สร้าง Superuser เพื่อใช้งาน ฐานข้อมูล sqlite ด้วยคำสั่ง 
 python manage.py createsuperuser
 
-5. ไปที่ Terminal พิมพ์คำสั่ง python manage.py runserver
+5. ไปที่ Terminal พิมพ์คำสั่ง python manage.py runserver เพื่อ ทดสอบการทำงาน
 
 *จำเป็นต้องทำทุกขั้นตอน เพื่อป้องกันการ ERROR 
 
