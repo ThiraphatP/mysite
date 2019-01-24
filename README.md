@@ -1,10 +1,11 @@
 # mysite
 วิธีการใช้งานและติดตั้ง
+
+การใช้งาน
 Download ไฟล์ZIP 
 และทำการ extract files ไว้ที่ใดก็ได้
 จากนั้นทำการ เปิดโปรแกรม visual studio code หรือ PyCharm
 ไปที่ File > OPEN > เลือก Folder ที่ทำการ extract files ไว้ กด OK
-ไปที่ Terminal พิมพ์คำสั่ง python manage.py runserver
 
 จำเป็นต้องมี Python 3+ , Django , superuser
 
@@ -21,18 +22,15 @@ https://docs.python-guide.org/starting/install3/osx/
 พิมพ์คำสั่ง $ pip install -U Django 
 แล้ว pip3 จะ download django เข้ามาติดตั้งในเครื่องให้โดยอัตโนมัติ
 
-
 3. เปิด command prompt
 พิมพ์คำสั่ง
 python manage.py migrat
 และ
 
-
-
 4. สร้าง Superuser เพื่อใช้งาน ฐานข้อมูล sqlite ด้วยคำสั่ง 
 python manage.py createsuperuser
 
-
+5. ไปที่ Terminal พิมพ์คำสั่ง python manage.py runserver
 
 *จำเป็นต้องทำทุกขั้นตอน เพื่อป้องกันการ ERROR 
 
