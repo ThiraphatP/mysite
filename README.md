@@ -17,20 +17,28 @@ Download ไฟล์ZIP
 - สำหรับ Mac สามารถทำตาม Tutorial นี้ เพื่อติดตั้งได้
 https://docs.python-guide.org/starting/install3/osx/
 
-2. ติดตั้ง Django
+2. ติดตั้ง pip3
+pip3 คือ package manager ที่ใช้สำหรับติดตั้ง package เสริมให้กับ Python3 (คล้ายๆ คำสั่ง apt-get บน linux) โดยเราจะใช้ pip ในการติดตั้ง Django ต่อไป
+- สำหรับ Windows คำสั่ง pip จะถูกติดตั้งมาอยู่แล้วบน python version 3.5 ขึ้นไป 
+- สำหรับ Linux ติดตั้งด้วยคำสั่ง $ sudo apt-get install python3-pip
+- สำหรับ Mac ทำตาม Link ด้านบนเพื่อติดตั้ง pip3
+เมื่อติดตั้งเสร็จสิ้นทดสอบด้วยการพิมพ์คำสั่ง $ pip3 ใน console
+
+3. ติดตั้ง Django
 เปิด command prompt
 พิมพ์คำสั่ง $ pip install -U Django 
 แล้ว pip3 จะ download django เข้ามาติดตั้งในเครื่องให้โดยอัตโนมัติ
 
-3. ไปที่ root directory ของไฟล์
+4. ไปที่ root directory ของไฟล์
 ไปที่ Terminal พิมพ์คำสั่ง
 python manage.py migrat
 และ
 
-4. สร้าง Superuser เพื่อใช้งาน ฐานข้อมูล sqlite ด้วยคำสั่ง 
+5. สร้าง Superuser เพื่อใช้งาน ฐานข้อมูล sqlite ด้วยคำสั่ง 
 python manage.py createsuperuser
 
-5. ไปที่ Terminal พิมพ์คำสั่ง python manage.py runserver เพื่อ ทดสอบการทำงาน
+6. เปิดโปรแกรม visual studio code หรือ PyCharm เปิดโฟล์เดอร์ที่เก็บไฟล์
+ไปที่ Terminal พิมพ์คำสั่ง python manage.py runserver เพื่อ ทดสอบการทำงาน
 
 *จำเป็นต้องทำทุกขั้นตอน เพื่อป้องกันการ ERROR 
 
