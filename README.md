@@ -42,6 +42,10 @@ python manage.py createsuperuser
 
 *จำเป็นต้องทำทุกขั้นตอน เพื่อป้องกันการ ERROR 
 *ต้องเพิ่มข้อมูลก่อน ฟังชั่น Pop ถึงจะทำงาน
+
+ตัวอย่าง
+https://www.picz.in.th/image/50519873-2138234319569534-8942117950312153088-n.TYHmYz
+
 อ้างอิง
 https://codeburst.io/%E0%B9%80%E0%B8%A3%E0%B8%B4%E0%B9%88%E0%B8%A1%E0%B8%9E%E0%B8%B1%E0%B8%92%E0%B8%99%E0%B8%B2-web-application-%E0%B8%81%E0%B8%B1%E0%B8%9A%E0%B8%A0%E0%B8%B2%E0%B8%A9%E0%B8%B2-python-%E0%B8%94%E0%B9%89%E0%B8%A7%E0%B8%A2-django-framework-38ce132ac706
 
