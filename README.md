@@ -36,6 +36,7 @@ python manage.py migrate
 
 5. สร้าง Superuser เพื่อใช้งาน ฐานข้อมูล sqlite ด้วยคำสั่ง 
 python manage.py createsuperuser
+จากนั้นไปที่ http://xxx.x.x.x:xxxx/admin เพื่อ Login เข้าใช้งาน ฐานข้อมูล
 
 6. เปิดโปรแกรม visual studio code หรือ PyCharm เปิดโฟล์เดอร์ที่เก็บไฟล์
 ไปที่ Terminal พิมพ์คำสั่ง python manage.py runserver เพื่อ ทดสอบการทำงาน
