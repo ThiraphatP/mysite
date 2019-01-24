@@ -20,11 +20,15 @@ https://docs.python-guide.org/starting/install3/osx/
 พิมพ์คำสั่ง $ pip install -U Django 
 แล้ว pip3 จะ download django เข้ามาติดตั้งในเครื่องให้โดยอัตโนมัติ
 
+
+เปิด command prompt
 พิมพ์คำสั่ง
 python manage.py migrat
 และ
-พิมพ์คำสั่ง
-สร้างSuperuser ไว้ใช้งาน ฐานข้อมูล
+
+
+
+สร้าง Superuser ไว้ใช้งาน ฐานข้อมูล ด้วยคำสั่ง 
 python manage.py createsuperuser
 
 
