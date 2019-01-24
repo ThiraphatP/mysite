@@ -13,6 +13,7 @@ Download ไฟล์ZIP
 สำคัญมากต้องติ๊กช่อง “Add python 3.X to PATH” ด้วย
 - สำหรับ Linux version ใหม่ๆ จะมี python3 ติดตั้งมาให้ โดย default อยู่แล้ว
 - สำหรับ Mac สามารถทำตาม Tutorial นี้ เพื่อติดตั้งได้
+https://docs.python-guide.org/starting/install3/osx/
 
 ติดตั้ง Django
 เปิด command prompt
